@@ -1,0 +1,58 @@
+﻿<!--<div ng-hide="hideNoResultDiv">
+    <strong>You have not selected a Word. Please click on "Learn A Word Today" link on the left Menu.</strong>
+</div>-->
+<div ng-cloak>
+    <h3 style="text-align: center">Drag & Drop & Evaluate yourself!</h3>
+    <p>Drag and Drop the words on the lines to form a meaningful sentence, and learn how to use your word of choice! Once Done, Submit to Evaluate!</p>
+    <div class="col-md-12">
+        <div id="dropWordsTopDiv" class="col-md-10">
+
+        </div>
+        <br />
+        <div class="actions">
+            <center>
+                <div class="btn-group" style="margin-bottom:5px">
+                </div>
+                <button type="button" class="btn reset btn-lsm fixed-position" ui-sref="Dragdrop({questions: questions})" ui-sref-opts="{reload: true, notify: true}" style="position: fixed;">Reset</button><br /><br />
+                <button type="button" class="btn btn-primary btn-lsm fixed-position" data-toggle="modal" ng-click="submit()" style="position: fixed;">Submit</button><br /><br />
+                <button type="button" class="btn btn-info btn-lsm fixed-position" data-toggle="modal" data-target="#cheetSheetModal" style="position: fixed;">Cheat Sheet</button>
+
+            </center>
+        </div>
+    </div>
+
+    <div id="cheetSheetModal" class="modal modal-message modal-info fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <h4 class="modal-title">Cheat Sheet</h4>
+                <div class="modal-body">
+                    <div ng-repeat="q in questions"><span>{{$index + 1}}: </span>{{q}}</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="messageModalDiv" class="modal modal-message modal-info fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <h4 class="modal-title">Congratulations! You have submitted successfully...</h4>
+
+                <div class="modal-body"><div><span id="messageModalBodySpan" ng-bind-html="message"></span></div></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,73 @@
+﻿<div ng-cloak>
+
+    <label>Choose any topic of interest to fetch a test for {{grammarType}}.</label><br />
+    <input id="topic" type="text" ng-model="topic" style="margin-bottom:0em" />
+    <button id="fetchGT" ng-click="fetchGrammarTest()" class="btn btn-primary btn-sm" ng-disabled="gtFetchInProgress">Fetch Grammar Test</button>
+    <p class="text-center" ng-hide="dataloaded">
+        <i style="height:5em;width:5em" class="fa fa-spinner fa-spin"></i>
+    </p>
+    <br />
+    <br />
+    <div ng-hide="hideNoUsageFound">No Usage found for the given Word.</div>
+    <div ng-show="showGrammarTest">        
+        <button type="button" class="btn btn-info btn-lsm pull-right" data-toggle="modal" data-target="#myModal">Cheat Sheet</button>
+        <table id="grammar">           
+            <tr ng-repeat="ques in data" class="table-bordered table-responsive table-striped">
+                <td>
+                    <span>{{$index + 1}}</span>
+                </td>
+                <td>
+                    <span style="padding:2px; padding-top:5px" ng-repeat="q in ques track by $index">
+                        <span ng-bind-html="trustAsHtml(q)"></span>  
+                    </span>
+                </td>
+                <td>
+                    <input type="submit" style="padding:2px" class="btn btn-primary" ng-click="submitTest(ques, $index)" />
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div ng-hide="!showGrammarTest">
+        <pagination num-pages="noOfPages" current-page="currentPage" class="pagination-small"></pagination>
+    </div>
+
+    <div id="myModal" class="modal modal-message modal-info fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <h4 class="modal-title">Cheat Sheet</h4>
+                <div class="modal-body">
+                    <div ng-repeat="g in grammarTestExamples"><span>{{$index + 1}}: </span>{{g}}</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="resultsModalDiv" class="modal modal-message fade" ng-class="{'modal-info': toggle, 'modal-danger': !toggle}" data-backdrop="static" data-keyboard="false" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog sm-modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <h4 class="modal-title">Result</h4>
+                <div class="sm-modal-body auto-height"><div><center><h4 id="messageModalBodySpan" ng-bind-html="result"></h4></center></div></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" ng-class="{'btn-info': toggle, 'btn-danger': !toggle}" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+

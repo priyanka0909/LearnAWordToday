@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head>
+    <script src="/scripts/angular-1.6.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="/scripts/angular-1.6.7/angular-cookies.min.js"></script>
+    <script src="../Scripts/angular-1.6.7/angular-sanitize.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="../Scripts/bootstrap-3.3.7/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!--<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.0/css/bootstrap-combined.min.css" rel="stylesheet">-->
+    <link href="Styles/PaginationStyle.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles/myStyle.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="../Content/DragDrop/jdropwords.css" rel="stylesheet" />
+    <!--<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.0/css/bootstrap-combined.min.css" rel="stylesheet">-->
+    <!-- Latest compiled JavaScript -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../Scripts/DragDrop/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="../Scripts/bootstrap-3.3.7/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+
+   
+
+    <script src="./Controllers/appController.js"></script>
+    <script src="./Controllers/mainController.js"></script>
+    <script src="./Controllers/menuController.js"></script>
+    <script src="RouteConfig.js"></script>
+    <script src="../Scripts/DragDrop/jdropwords.js"></script>
+    <script src="./Services/learnService.js"></script>
+    <script src="./Directives/selectDirective.js"></script>
+    <script src="./Directives/Pagination.js"></script>
+    <script src="./Controllers/dragdropController.js"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+</head>
+<style>
+    #speechActivity {
+        position: absolute;
+        width: 30px;
+    }
+
+    #networkActivity {
+        position: absolute;
+        width: 30px;
+        top: 40px;
+    }
+
+    .hidden {
+        display: none;
+    }
+</style>
+
+
+<body ng-app="myApp" ng-controller="appController">
+
+
+    <div class="row clear-margiin">
+        <div class="col-sm-12 mainbackground padding-top15 padding-bottom15 padding-left5">
+            <div class="pull-left">
+                <ul class="navgation list-inline clear-margiin">
+                    <li>
+                        <a ui-sref="Welcome">Home</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a ui-sref="Learn">Start Learning</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="row clear-margiin">
+        <div class="col-sm-12 carousel_Bg clearpadding-left">
+            <div class="col-sm-6 clearpadding-left">
+
+                <div id="myCarousel" class="carousel slide pull-left" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="./images/learn.jpg" style="width:225px; height:150px;" />
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/test.jpg" style="width:225px; height:150px;" />
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/grow.jpg" style="width:225px; height:150px;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 headingcolor">
+                <h2>Learn A Word Today</h2>
+                <h3>Using Microsoft Cognitive Services</h3>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div ng-class="row" class="main_row clearfix">
+        <div class="col-sm-2 leftt-nav">
+            <ul>
+                <li><a ui-sref="Learn">Learn A Word Today</a></li>
+                <li><a ui-sref="Grammar({type: 'Articles'})">Test Grammar-Articles</a></li>
+                <li><a ui-sref="Grammar({type: 'Pronouns'})">Test Grammar-Pronouns</a></li>
+                <li><a ui-sref="Grammar({type: 'Prepositions'})">Test Grammar-Prepositions</a></li>
+                <li><a ui-sref="Grammar({type: 'Conjunctions'})">Test Grammar-Conjunctions</a></li>
+                <li><a ui-sref="Contact">Contact us</a></li>
+            </ul>
+
+
+        </div>
+        <div class="col-sm-10 well" style="height: 200%;margin-bottom:0px;">
+            <div ng-hide="hideWelcome">
+                <div ng-include src="'Home.html'"></div>
+            </div>
+
+            <div ui-view></div>
+
+    </div>
+
+
+
+
+
+    <script src="../Scripts/BingSpeech.js"></script>
+    <!--<script src="Index.js"></script>-->
+</body>
+
+</html>

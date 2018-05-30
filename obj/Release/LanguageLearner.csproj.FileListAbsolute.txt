@@ -1,0 +1,153 @@
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\DocumentDB.Spatial.Sql.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\ApplicationInsights.config
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\csc.exe
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\csc.exe.config
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\csc.rsp
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\csi.exe
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\csi.rsp
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\System.AppContext.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\vbc.exe
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\vbc.exe.config
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\vbc.rsp
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\VBCSCompiler.exe
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\LanguageLearner.dll.config
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\LanguageLearner.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\LanguageLearner.pdb
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Antlr3.Runtime.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.AI.Web.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.Azure.Documents.Client.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Newtonsoft.Json.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Net.Http.Formatting.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Helpers.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Http.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Http.WebHost.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Mvc.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Optimization.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Razor.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.Razor.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\WebGrease.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.Azure.Documents.Client.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Newtonsoft.Json.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Helpers.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Mvc.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Optimization.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Razor.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.Razor.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Antlr3.Runtime.pdb
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Net.Http.Formatting.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Http.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\System.Web.Http.WebHost.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\bin\Microsoft.AI.Web.xml
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\obj\Release\LanguageLearner.dll
+C:\Users\hackuser1\Documents\Visual Studio 2017\Projects\LanguageLearner\LanguageLearner\obj\Release\LanguageLearner.pdb
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.Azure.Documents.ServiceInterop.dll
+D:\LanguageLearner\LanguageLearner\bin\DocumentDB.Spatial.Sql.dll
+D:\LanguageLearner\LanguageLearner\bin\ApplicationInsights.config
+D:\LanguageLearner\LanguageLearner\bin\roslyn\csc.exe
+D:\LanguageLearner\LanguageLearner\bin\roslyn\csc.exe.config
+D:\LanguageLearner\LanguageLearner\bin\roslyn\csc.rsp
+D:\LanguageLearner\LanguageLearner\bin\roslyn\csi.exe
+D:\LanguageLearner\LanguageLearner\bin\roslyn\csi.rsp
+D:\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LanguageLearner\LanguageLearner\bin\roslyn\System.AppContext.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\System.Collections.Immutable.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\System.IO.FileSystem.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\System.Reflection.Metadata.dll
+D:\LanguageLearner\LanguageLearner\bin\roslyn\vbc.exe
+D:\LanguageLearner\LanguageLearner\bin\roslyn\vbc.exe.config
+D:\LanguageLearner\LanguageLearner\bin\roslyn\vbc.rsp
+D:\LanguageLearner\LanguageLearner\bin\roslyn\VBCSCompiler.exe
+D:\LanguageLearner\LanguageLearner\bin\roslyn\VBCSCompiler.exe.config
+D:\LanguageLearner\LanguageLearner\bin\LanguageLearner.dll.config
+D:\LanguageLearner\LanguageLearner\bin\LanguageLearner.dll
+D:\LanguageLearner\LanguageLearner\bin\LanguageLearner.pdb
+D:\LanguageLearner\LanguageLearner\bin\Antlr3.Runtime.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.AI.Agent.Intercept.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.AI.DependencyCollector.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.AI.Web.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.AI.WindowsServer.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.ApplicationInsights.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.Azure.Documents.Client.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.Web.Infrastructure.dll
+D:\LanguageLearner\LanguageLearner\bin\Newtonsoft.Json.dll
+D:\LanguageLearner\LanguageLearner\bin\System.Net.Http.Formatting.dll
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Helpers.dll
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Http.dll
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Http.WebHost.dll
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Mvc.dll
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Optimization.dll
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Razor.dll
+D:\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.Deployment.dll
+D:\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.dll
+D:\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.Razor.dll
+D:\LanguageLearner\LanguageLearner\bin\WebGrease.dll
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.Azure.Documents.Client.xml
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LanguageLearner\LanguageLearner\bin\Newtonsoft.Json.xml
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Helpers.xml
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Mvc.xml
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Optimization.xml
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Razor.xml
+D:\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.xml
+D:\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.Deployment.xml
+D:\LanguageLearner\LanguageLearner\bin\System.Web.WebPages.Razor.xml
+D:\LanguageLearner\LanguageLearner\bin\Antlr3.Runtime.pdb
+D:\LanguageLearner\LanguageLearner\bin\System.Net.Http.Formatting.xml
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Http.xml
+D:\LanguageLearner\LanguageLearner\bin\System.Web.Http.WebHost.xml
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.ApplicationInsights.xml
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.AI.DependencyCollector.xml
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.AI.WindowsServer.xml
+D:\LanguageLearner\LanguageLearner\bin\Microsoft.AI.Web.xml
+D:\LanguageLearner\LanguageLearner\obj\Release\LanguageLearner.csprojResolveAssemblyReference.cache
+D:\LanguageLearner\LanguageLearner\obj\Release\LanguageLearner.dll
+D:\LanguageLearner\LanguageLearner\obj\Release\LanguageLearner.pdb

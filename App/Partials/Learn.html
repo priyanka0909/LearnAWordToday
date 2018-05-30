@@ -1,0 +1,96 @@
+﻿
+
+<div style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" ng-cloak>
+    <img id="speechActivity" class="hidden" src="./images/waiting.gif" />
+    <img id="networkActivity" class="hidden" src="./images/radio.gif" />
+    <table width="100%" style="border-collapse:separate;border-spacing:0.5em;">
+        <tr><td /><td><!--<h2>Learn A Word Today</h2><h3>Using Microsoft Cognitive Services</h3>--></td></tr>
+        <tr>
+            <td align="right"><A href="https://www.microsoft.com/cognitive-services/en-us/sign-up" target="_blank">Subscription</A>:</td>
+            <td><input id="key" type="text" size="40" value="60d0936045fa46fa8ba318ecf8c2a6f6"></td>
+        </tr>
+        <tr>
+            <td />
+            <td align="left">
+
+                <!--<select ng-model='form' required ng-options='option.value as option.name for option in typeOptions' ng-change="onSelectChange()"></select>-->
+
+                <select id="languageoptions" ng-model="langoptions" ng-change="createAndSetupClient()">
+                    <option value="en-US" selected="selected">English - US</option>
+                    <option value="zh-CN">Chinese - CN</option>
+                    <option value="en-GB">English - GB</option>
+                    <option value="fr-FR">French - FR</option>
+                    <option value="de-DE">German - DE</option>
+                    <option value="it-IT">Italian - IT</option>
+                    <option value="es-ES">Spanish - ES</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td />
+            <td>
+                <!--<button id="createBtn" ng-click="createAndSetupClient()">Create</button>-->
+                <button id="startBtn" ng-click="createAndSetupClient();start()" class="btn btn-sm btn-primary pull-left" ng-disabled="recordingStarted" style="margin-right:1em">Start Recording</button>
+                <button id="stopBtn" disabled="disabled" ng-click="stop()" class="btn btn-sm  btn-primary pull-left" ng-disabled="recordingStopped" style="margin-right:7em">Stop Recording</button>
+                <button id="speakBtn" class="btn btn-sm  btn-primary" ng-click="speak()">Pronounce It</button>
+            </td>
+        </tr>
+        <tr>
+            <td />
+            <td>
+                <textarea id="output" ng-model="output" style='width:400px;height:200px'></textarea>
+            </td>
+            <p class="text-center" ng-hide="dataloaded">
+                <i style="height:5em;width:5em" class="fa fa-spinner fa-spin"></i>
+            </p>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button id="fetchMeanings" ng-click="fetchMeanings()" class="btn btn-primary">Show Meaning</button>&nbsp;
+                <button id="fetchExamples" ng-click="fetchExamples()" class="btn btn-primary">Show Examples</button>&nbsp;
+                <button id="fetchTest" ng-click="goToJumbledTest()" class="btn btn-primary">Fetch My Test Now</button>
+                <!--<button id="fetchGTest" ng-click="goToGrammerTest()" class="btn btn-primary">Test My Grammar</button>-->
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td style="margin:1em">
+                <div ng-show="showExamples">
+                    <label>Below are few examples to get you started: </label>
+                    <table class="table-striped table-bordered table-responsive">
+                        <tr ng-repeat="example in examplesToDisplay">
+                            <td>
+                                <span><b>{{$index + 1}}: </b></span>{{example}}
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <!--<div ng-repeat="example in examplesToDisplay">
+                        <label><span>{{$index + 1}}: </span>{{example}}</label>
+                    </div>-->
+                </div>
+                <div ng-show="showMeanings">
+                    <label>Below are the meanings of the word: </label>
+                        <table class="table-striped table-bordered table-responsive">
+                            <tr ng-repeat="meaning in Meanings">
+                                <td>
+                                    <span><b>{{$index + 1}}: </b>{{meaning}}</span>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </table>
+               </div>
+
+                    <div ng-show="noData">
+                        <label h4>The required information on the word was not found. Please try with another word.</label>
+                    </div>
+</td>
+        </tr>
+
+
+    </table>
+
+    <ul id="wavFiles"></ul>
+</div>
